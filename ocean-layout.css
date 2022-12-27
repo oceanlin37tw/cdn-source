@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Base */
+html,body {
+    background: rgba(175,175,175,1.00);
+	font-family: "Microsoft JhengHei", "Helvetica Neue", "Noto Sans", Helvetica,Arial, sans-serif !important;
+	font-size: 16px;
+	height: 100%;
+    overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+button:focus, .btn:focus {
+	outline: none;
+    box-shadow: none;
+}
+a:focus, a:hover, a:link {
+	outline: none;
+    text-decoration: none;
+}
+
+/* Font Size */
+.font-h1 {
+    font-family: Microsoft JhengHei;
+    font-size: 8rem;
+    font-weight: bolder;
+    margin-right: 0.75rem;
+    transform: rotate(-180deg);
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+}
+.font-h2 {
+    font-family: Microsoft JhengHei;
+    font-size: 4rem;
+    font-weight: bolder;
+    transform: rotate(-180deg);
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+}
+
+/* Buttons */
+.btn-more {
+    font-size: 13px;
+}
+
+/* Cover */
+.cover {
+    position: relative;
+}
+.cover-title {
+    display: flow-root;
+}
+.cover-title h1 {
+    padding-right: 12%;
+}
+.cover-title h1,h2 {
+    float: left;
+}
+.cover {
+    z-index: 1;
+}
+.cover-photo {
+    clear: both;
+	object-fit: none;
+	overflow: hidden;
+    position: absolute;
+    right: 4%;
+    top: 3rem;
+    z-index: 2;
+}
+.cover-photo img {
+    float: right;
+	height: auto;
+	min-height: inherit;
+	object-fit: contain;
+	width: 100%;
+}
+
+/* Cover Description */
+.cover-description {
+    position: relative;
+    z-index: 4;
+}
+.social-link {
+    line-height: 3rem;
+}
+.ocean-profile {
+    line-height: 1.75rem;
+}
+
+/* Resume */
+.ocean-profile ul {
+    padding-left: 0!important;
+}
+.border-bottom {
+    border-bottom: none!important;
+}
+
+/* Protfolio */
+.portfolio-container-box {
+    background: url("../images/portfolio-bg.png") no-repeat;
+}
+.header-nav span {
+    word-break: break-all;
+}
+.circle-cover {
+    width: 32px;
+    height: 32px;
+}
+.description-ad {
+    color: rgba(0,0,0,0.5);
+    font-size: 13px;
+    line-height: 17px;
+    margin: 12px 0;
+}
+.portfolio-cover-photo {
+    height: 96px;
+    overflow: hidden;
+}
+.portfolio-cover-photo img {
+    max-height: 96px;
+}
+.default-box {
+    height: 128px;
+}
+
+/* Timeline */
+.timeline-item {
+    padding: 3em 2em 2em;
+    position: relative;
+    color: rgba(0, 0, 0, 0.7);
+    border-left: 2px solid rgba(0, 0, 0, 0.3);
+    width: 58%;
+}
+.timeline-item p {
+    font-size: 1rem;
+}
+.timeline-item::before {
+    content: attr(date-is);
+    position: absolute;
+    left: 2em;
+    font-weight: bold;
+    top: 1em;
+    display: block;
+    font-weight: 700;
+    font-size: 0.785rem;
+}
+.timeline-item::after {
+    width: 10px;
+    height: 10px;
+    display: block;
+    top: 1em;
+    position: absolute;
+    left: -7px;
+    border-radius: 10px;
+    content: "";
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background: white;
+}
+.timeline-item:last-child {
+    -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+     border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+/* Web Page */
+.web-page-box .card:hover, .web-site-box .card:hover, .app-box .card:hover {
+    box-shadow: 0 .125rem .35rem rgba(0,0,0,.2)!important;
+}
+.list-group-numbered {
+    list-style-type: decimal!important;
+}
