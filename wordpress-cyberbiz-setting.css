@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width: 1280px)
+.responsive-max-width, .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.wp-block-button):not(.entry-attachment), .entry-content > *:not(.wp-block-button), .entry-content [class*="inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator) {
+    max-width: 100%!important;
+}
+
+@media only screen and (min-width: 1024px)
+.responsive-max-width, .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.wp-block-button):not(.entry-attachment), .entry-content > *:not(.wp-block-button), .entry-content [class*="inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator) {
+    max-width: 100%!important;
+}
+
+@media only screen and (min-width: 782px)
+.responsive-max-width, .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.wp-block-button):not(.entry-attachment), .entry-content > *:not(.wp-block-button), .entry-content [class*="inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator) {
+    max-width: 100%!important;
+}
+
+@media only screen and (min-width: 640px)
+.responsive-max-width, .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.wp-block-button):not(.entry-attachment), .entry-content > *:not(.wp-block-button), .entry-content [class*="inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator) {
+    max-width: 100%!important;
+}
+
+@media only screen and (min-width: 560px)
+.responsive-max-width, .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.wp-block-button):not(.entry-attachment), .entry-content > *:not(.wp-block-button), .entry-content [class*="inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator) {
+    max-width: 100%!important;
+}
