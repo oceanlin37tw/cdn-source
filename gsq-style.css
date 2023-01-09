@@ -129,6 +129,19 @@ html,body {
 	color: #41B797!important;
 }
 
+/* Footer */
+#footer {
+	padding: 40px 0 0 0!important;
+}
+.copyright {
+	background: #08287f!important;
+	color: #ffffff!important;
+	text-align: center;
+}
+.copyright a {
+	color: #ffffff!important;
+}
+
 /* Covers */
 .gsq-cover-box {
 	height: 768px;
