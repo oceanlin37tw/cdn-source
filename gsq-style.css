@@ -35,6 +35,7 @@ html,body {
 	padding: 24px 0;
 }
 .gsq-page-text {
+	color: #595757;
 	font-size: 21px;
 	line-height: 27px;
 }
@@ -52,13 +53,16 @@ html,body {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;	
 }
+.logo-description {
+	font-size: 15px;
+}
 
 /* Colors */
 .gsq-color-green {
     color: #41B797;
 }
 .gsq-color-blue {
-    color: #08287F
+    color: #08287F;
 }
 .gsq-color-light-green {
     color: #5AA0AA;
@@ -73,6 +77,11 @@ html,body {
     color: #231815;
 }
 
+/* Background */
+.gsq-bg-yellow-light {
+	background: #fffeee;
+}
+
 /* Buttons */
 .gsq-btn-outline-blue {
 	border: 1px solid rgba(8,40,127,1.00)!important;
@@ -81,6 +90,36 @@ html,body {
 }
 .gsq-btn-outline-blue:hover, .gsq-btn-outline-blue:active {
 	background-color: rgba(8,40,127,1.00)!important;
+}
+.gsq-btn-blue {
+	background: rgba(8,40,127,1.00);;
+	border: 1px solid rgba(8,40,127,1.00)!important;
+	color: rgba(255,255,255,1.00);
+	font-size: 21px;
+	font-weight: bolder;	
+}
+.gsq-btn-blue:hover {
+	background: rgba(0,20,75,1.00);;
+	border: 1px solid rgba(8,40,127,1.00)!important;
+	color: rgba(255,255,255,1.00);
+	font-size: 21px;
+	font-weight: bolder;	
+}
+
+/* Badge */
+.gsq-badge {
+	color: #ffffff;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+.gsq-text-bg-blue {
+	background: #08287F;
+}
+
+/* OL & UL */
+.gsq-ul ul li::marker {
+	color: #41B797!important;
 }
 
 /* Covers */
@@ -131,7 +170,7 @@ html,body {
 	object-fit: cover;
 }
 .page-description-tpi-1 {
-	background: url("https://cdn1.cybassets.com/s/files/23929/ckeditor/pictures/content_eff1795f-9f51-44ae-83d6-01193cc8973e.jpg") no-repeat left top;
+	background: url("https://cdn1.cybassets.com/s/files/23929/ckeditor/pictures/content_b1240c04-df7a-40c4-8c2f-04a5ed4af000.jpg") no-repeat right top;
 	background-size: cover;
 	object-fit: cover;
 }
