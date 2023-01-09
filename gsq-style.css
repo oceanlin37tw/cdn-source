@@ -12,6 +12,7 @@ html,body {
 .breadcrumb {
 	font-size: 13px!important;
 	margin-bottom: 0!important;
+	padding: 10px 0;
 }
 
 /* Fonts */
