@@ -11,6 +11,7 @@ html,body {
 /* Breadcrumb */
 .breadcrumb {
 	font-size: 13px!important;
+	margin-bottom: 0!important;
 }
 
 /* Fonts */
