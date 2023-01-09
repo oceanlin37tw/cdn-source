@@ -135,11 +135,18 @@ html,body {
 }
 .copyright {
 	background: #08287f!important;
+	border: 0!important;
 	color: #ffffff!important;
+	padding: 15px 0!important;
 	text-align: center;
 }
 .copyright a {
 	color: #ffffff!important;
+}
+
+/* Others */
+#site_path {
+	margin-bottom: 0!important;
 }
 
 /* Covers */
