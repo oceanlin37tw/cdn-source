@@ -36,6 +36,11 @@
         line-height: 32px;
     }
 	
+    /* Footer */
+    .copyright {
+		margin-bottom: 48px;
+    }
+	
 	/* Covers */
 	.gsq-cover-box {
         height: 284px;
