@@ -8,6 +8,11 @@ html,body {
 	scroll-behavior: smooth;
 }
 
+/* Breadcrumb */
+.breadcrumb {
+	font-size: 13px!important;
+}
+
 /* Fonts */
 .gsq-cover-title {
     font-size: 76px;
