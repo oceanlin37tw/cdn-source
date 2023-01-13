@@ -19,8 +19,12 @@
         font-size: 28px;
 		text-shadow: 0 1px 5px rgba(0,0,0,0.75);
     }
+    .gsq-cover-title-2 {
+        font-size: 50px;
+		text-shadow: 0 1px 5px rgba(0,0,0,0.75);
+    }
     .gsq-cover-subject-1 {
-        font-size: 29px;
+        font-size: 22px;
 		text-shadow: 0 1px 5px rgba(0,0,0,0.75);
     }
 	.gsq-cover-subject-2 {
@@ -34,6 +38,19 @@
 	.gsq-page-title {
         font-size: 27px;
         line-height: 32px;
+    }
+    .gsq-page-title-3 {
+		color: #ffffff;
+        font-size: 21px;
+		text-shadow: 0 3px 5px rgba(0,0,0,0.35);
+    }
+    .gsq-item-title {
+        font-size: 24px;
+		line-height: inherit;
+    }
+	.break-text {
+		display: block;
+        word-break: keep-all;
     }
 	
     /* Footer */
