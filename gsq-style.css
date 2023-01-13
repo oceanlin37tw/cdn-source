@@ -92,6 +92,12 @@ html,body {
 .gsq-data-description {
 	font-size: 24px;
 }
+.item-overlay-text {
+	color: #ffffff;
+	font-size: 32px;
+	font-weight: bold;
+	text-shadow: 0 1px 5px rgba(0,0,0,0.55);
+}
 
 /* Colors */
 .gsq-color-green {
@@ -160,6 +166,25 @@ html,body {
 	padding: 8px 16px;
 }
 
+/* Feature */
+.gsq-feature-box {
+	background: #7873be;
+	border-radius: 50% 50%;
+	color: #ffffff;
+	height: 100px;
+	width: 100px;
+}
+.gsq-feature-title {
+	font-size: 27px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.gsq-featur-number {
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: -20px;
+}
+
 /* OL & UL */
 .gsq-ul ul li::marker {
 	color: #41B797!important;
@@ -169,6 +194,13 @@ html,body {
 .gsq-cardlist a {
 	color: inherit!important;
 	text-decoration: none!important;
+}
+
+/* Overlay */
+.item-overlay {
+	background: rgba(0,0,0,0.5);
+	height: 100%;
+	width: 100%;
 }
 
 /* Footer */
@@ -219,6 +251,41 @@ html,body {
 }
 .gsq-cover-jk {
 	background: url("https://cdn1.cybassets.com/s/files/23929/ckeditor/pictures/content_2596a32a-d1e4-48f4-ab25-919e1b9f3a98.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+.gsq-cover-gsq {
+	background: url("https://cdn1.cybassets.com/s/files/23929/ckeditor/pictures/content_f38f9a16-07ae-4651-9275-efbb7572c60f.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+.gsq-cover-marketing {
+	background: url("https://cdn1.cybassets.com/s/files/23929/ckeditor/pictures/content_56b87004-c013-4189-850f-fbff7495791e.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+.gsq-cover-art {
+	background: url("https://cdn1.cybassets.com/s/files/23929/ckeditor/pictures/content_ef16c10a-7302-423f-bf40-0aa4c52e1b79.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+.gsq-cover-website {
+	background: url("https://cdn1.cybassets.com/s/files/23929/ckeditor/pictures/content_0fe27560-f521-4731-b30a-b4c63618b0ee.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+.gsq-cover-about {
+	background: url("https://cdn1.cybassets.com/s/files/23929/ckeditor/pictures/content_b578f2ff-a59e-44ef-92d7-ed357bb210bf.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 	object-fit: cover;
