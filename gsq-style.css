@@ -291,6 +291,13 @@ html,body {
 	object-fit: cover;
 	width: 100%;
 }
+.gsq-cover-pp {
+	background: url("https://cdn1.cybassets.com/s/files/23929/ckeditor/pictures/content_0878ff3c-ea20-4782-a9e4-74498585dcc0.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
 
 /* Customer Calling */
 .page-customer-calling-box {
